@@ -45,7 +45,7 @@ def pause():
 
 def browse():     # to change value of a global variable inside a function apply global  
 	global file                                 				# method to browse music files in system
-	top.filename = tkFileDialog.askopenfilename(initialdir="/home/${USER}/",title = "Choose Music file",filetypes=(("mp3  files","*.mp3"),("mp4 files","*.mp4"),("all files","*.*")))
+	top.filename = tkFileDialog.askopenfilename(initialdir="/home/${USER}/",title = "Choose Music file")
 	file = top.filename
 	
 
