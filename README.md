@@ -1,4 +1,4 @@
-# Audio-Video-player
+# PYTHON Audio-Video-player
     Audio Video Player(for UBUNTU only).
 ### Requirements : 
     python and vlc media player should be installed .
