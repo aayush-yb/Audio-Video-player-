@@ -28,6 +28,7 @@ set= 0
 playTill = 0                                  	 # just a flag 
 filename=""
 file = ''   										#example
+dirname="/home/${USER}/"
 
 
 def music(file):
@@ -45,7 +46,7 @@ def pause():
 
 def browse():     # to change value of a global variable inside a function apply global  
 	global file                                 				# method to browse music files in system
-	top.filename = tkFileDialog.askopenfilename(initialdir="/home/${USER}/",title = "Choose Music file")
+	top.filename = tkFileDialog.askopenfilename(initialdir=dirname,title = "Choose Music file")
 	file = top.filename
 	
 
